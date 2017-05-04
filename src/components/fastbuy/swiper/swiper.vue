@@ -22,7 +22,7 @@
     </swiper>
 
     <!-- 选中商品之后进行加减 -->
-    <gooddetail></gooddetail>
+    <gooddetail :item="this.arr"></gooddetail>
 
 
     <!--中间搜索框-->
@@ -150,7 +150,7 @@
       },
       back() {  // 选择完商品 “返回上一级”按钮
         this.show_search_page = false;
-      }
+      },
 //      operation_add() {
 //        this.good_detail_num ++;
 //        this.$store.state.totalcount ++;
@@ -163,13 +163,13 @@
 //        this.good_detail_num --;
 //        this.$store.state.totalcount --;
 //      },
-//      showGoodDetail(item, index) {
-//        console.log(item);
-//        this.arr.push(item);
-//        console.log(this.arr);
-//        console.log(index);
-//        this.show_swiper_good_detail = true;
-//      }
+      showGoodDetail(item, index) {
+        this.arr.splice(0, this.arr.length);
+        console.log(this.arr);
+        this.arr.push(item);
+        console.log(this.arr);
+        console.log(index);
+      }
     },
     components: {
       gooddetail

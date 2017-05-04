@@ -21,14 +21,14 @@
       <file leaf-file-name="swiper.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="693">
+              <caret line="166" column="43" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="43" />
               <folding>
-                <element signature="e#2686#2722#0" expanded="true" />
-                <element signature="e#3744#3851#0" expanded="false" />
-                <element signature="e#4052#4283#0" expanded="false" />
-                <element signature="e#4307#4354#0" expanded="false" />
-                <element signature="e#4369#4437#0" expanded="false" />
+                <element signature="e#2703#2739#0" expanded="true" />
+                <element signature="e#3761#3868#0" expanded="false" />
+                <element signature="e#4069#4300#0" expanded="false" />
+                <element signature="e#4324#4371#0" expanded="false" />
+                <element signature="e#4386#4454#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="gooddetail.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="399">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -294,6 +294,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wupincool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wupincool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="router" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -529,12 +547,12 @@
       <workItem from="1493081664047" duration="617000" />
       <workItem from="1493086198586" duration="14381000" />
       <workItem from="1493106413982" duration="1612000" />
-      <workItem from="1493883304249" duration="4433000" />
+      <workItem from="1493883304249" duration="7227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125850000" />
+    <option name="totallyTimeSpent" value="128644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
@@ -873,17 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#55#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -918,24 +925,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#55#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="399">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="693">
+          <caret line="166" column="43" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="43" />
           <folding>
-            <element signature="e#2686#2722#0" expanded="true" />
-            <element signature="e#3744#3851#0" expanded="false" />
-            <element signature="e#4052#4283#0" expanded="false" />
-            <element signature="e#4307#4354#0" expanded="false" />
-            <element signature="e#4369#4437#0" expanded="false" />
+            <element signature="e#2703#2739#0" expanded="true" />
+            <element signature="e#3761#3868#0" expanded="false" />
+            <element signature="e#4069#4300#0" expanded="false" />
+            <element signature="e#4324#4371#0" expanded="false" />
+            <element signature="e#4386#4454#0" expanded="false" />
           </folding>
         </state>
       </provider>

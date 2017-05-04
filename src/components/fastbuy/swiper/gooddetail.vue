@@ -2,7 +2,7 @@
   <!-- 选中商品之后进行加减 -->
   <div class="swiper_good_detail">
     <div class="swiper_good_detail_operation">
-      <div class="swiper_good_detail_operation_add"></div>
+      <div class="swiper_good_detail_operation_add" @click="test"></div>
       <div class="swiper_good_detail_operation_mid">
         <div class="swiper_good_detail_operation_mid_sure">确认数量</div>
         <div class="swiper_good_detail_operation_mid_num">购买数量0</div>
@@ -15,7 +15,13 @@
   export default {
     props: {
       item: {
-        type: Object
+        type: Array
+      }
+    },
+    methods: {
+      test() {
+        this.item[0].num ++;
+        console.log(this.item[0].num);
       }
     }
   };
