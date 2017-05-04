@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="swiper.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swiper.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="166" column="43" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="43" />
+            <state relative-caret-position="378">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="e#2703#2739#0" expanded="true" />
                 <element signature="e#3761#3868#0" expanded="false" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gooddetail.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gooddetail.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="567">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -204,8 +204,8 @@
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/components/fastbuy/fastbuy.vue" />
         <option value="$PROJECT_DIR$/data.json" />
-        <option value="$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue" />
         <option value="$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue" />
+        <option value="$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue" />
       </list>
     </option>
   </component>
@@ -547,12 +547,12 @@
       <workItem from="1493081664047" duration="617000" />
       <workItem from="1493086198586" duration="14381000" />
       <workItem from="1493106413982" duration="1612000" />
-      <workItem from="1493883304249" duration="7227000" />
+      <workItem from="1493883304249" duration="8290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128644000" />
+    <option name="totallyTimeSpent" value="129707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
@@ -936,18 +936,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="166" column="43" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="43" />
+        <state relative-caret-position="378">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="e#2703#2739#0" expanded="true" />
             <element signature="e#3761#3868#0" expanded="false" />
@@ -955,6 +947,14 @@
             <element signature="e#4324#4371#0" expanded="false" />
             <element signature="e#4386#4454#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

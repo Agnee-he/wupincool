@@ -2,12 +2,12 @@
   <!-- 选中商品之后进行加减 -->
   <div class="swiper_good_detail">
     <div class="swiper_good_detail_operation">
-      <div class="swiper_good_detail_operation_add" @click="test"></div>
+      <div class="swiper_good_detail_operation_add" @click="add"></div>
       <div class="swiper_good_detail_operation_mid">
         <div class="swiper_good_detail_operation_mid_sure">确认数量</div>
-        <div class="swiper_good_detail_operation_mid_num">购买数量0</div>
+        <div class="swiper_good_detail_operation_mid_num">购买数量{{this.item[0].num}}</div>
       </div>
-      <div class="swiper_good_detail_operation_descrease"></div>
+      <div class="swiper_good_detail_operation_descrease" @click="descrease"></div>
     </div>
   </div>
 </template>
@@ -19,9 +19,16 @@
       }
     },
     methods: {
-      test() {
+      add() {
+        console.log(this.item);
         this.item[0].num ++;
         console.log(this.item[0].num);
+      },
+      descrease() {
+        if (this.item[0].num > 0) {
+          this.item[0].num --;
+          console.log(this.item[0].num);
+        }
       }
     }
   };
