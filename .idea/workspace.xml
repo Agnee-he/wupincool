@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue" line="336" />
+    <bookmark url="file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue" line="292" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3715cab-ba47-49ef-b076-e0ac7ade3add" name="Default" comment="" />
@@ -18,19 +18,38 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="swiper.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="swiper.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="81" lean-forward="false" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+            <state relative-caret-position="305">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
-                <element signature="e#4250#4357#0" expanded="false" />
-                <element signature="e#4383#4533#0" expanded="false" />
-                <element signature="e#4558#4789#0" expanded="false" />
-                <element signature="e#4813#4860#0" expanded="false" />
-                <element signature="e#4875#4943#0" expanded="false" />
-                <element signature="e#5080#5233#0" expanded="false" />
+                <element signature="e#2686#2722#0" expanded="true" />
+                <element signature="e#3744#3851#0" expanded="false" />
+                <element signature="e#4052#4283#0" expanded="false" />
+                <element signature="e#4307#4354#0" expanded="false" />
+                <element signature="e#4369#4437#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gooddetail.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fastbuy.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fastbuy.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/fastbuy/fastbuy.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
@@ -141,9 +160,11 @@
       <find>search_img</find>
       <find>order_detail_content</find>
       <find>order_total</find>
-      <find>swiper_good_detail</find>
       <find>operation_add</find>
       <find>pay</find>
+      <find>showGoodDetail</find>
+      <find>swiper_good_detail</find>
+      <find>showGoodFun</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/components/js/setfontsize.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/components/fastbuy/swiper/search/search.vue" />
-        <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/build/dev-server.js" />
         <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/components/fastbuy/shopcart/shopcart.vue" />
@@ -182,8 +202,10 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/fastbuy/AMap/amap.vue" />
         <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue" />
         <option value="$PROJECT_DIR$/src/components/fastbuy/fastbuy.vue" />
+        <option value="$PROJECT_DIR$/data.json" />
+        <option value="$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue" />
       </list>
     </option>
   </component>
@@ -507,12 +529,12 @@
       <workItem from="1493081664047" duration="617000" />
       <workItem from="1493086198586" duration="14381000" />
       <workItem from="1493106413982" duration="1612000" />
-      <workItem from="1493883304249" duration="1646000" />
+      <workItem from="1493883304249" duration="4433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123063000" />
+    <option name="totallyTimeSpent" value="125850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
@@ -548,28 +570,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue</url>
-          <line>125</line>
+          <line>116</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue</url>
-          <line>162</line>
+          <line>153</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/swiper/src/less/navigation.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3030">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/swiper/src/less/navigation-f7.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1260">
@@ -757,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/saoyisao.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -812,14 +826,6 @@
           <folding>
             <element signature="e#0#22#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,26 +894,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="81" lean-forward="false" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
-          <folding>
-            <element signature="e#4250#4357#0" expanded="false" />
-            <element signature="e#4383#4533#0" expanded="false" />
-            <element signature="e#4558#4789#0" expanded="false" />
-            <element signature="e#4813#4860#0" expanded="false" />
-            <element signature="e#4875#4943#0" expanded="false" />
-            <element signature="e#5080#5233#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/fastbuy/fastbuy.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="258" column="23" lean-forward="true" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/gooddetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/fastbuy/swiper/swiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#2686#2722#0" expanded="true" />
+            <element signature="e#3744#3851#0" expanded="false" />
+            <element signature="e#4052#4283#0" expanded="false" />
+            <element signature="e#4307#4354#0" expanded="false" />
+            <element signature="e#4369#4437#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

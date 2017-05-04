@@ -11,8 +11,8 @@
           <dd><span></span><p></p></dd>
         </dl>
       </swiper-slide>
-      <swiper-slide id="list" v-for="item in goods">
-        <dl  @click="showGoodDetail(item)">
+      <swiper-slide id="list" v-for="(item, index) in goods">
+        <dl  @click="showGoodDetail(item, index)">
           <dt>
             <img src="../../../img/shangpin_0.png">
           </dt>
@@ -22,16 +22,7 @@
     </swiper>
 
     <!-- 选中商品之后进行加减 -->
-    <div class="swiper_good_detail" v-show="show_swiper_good_detail">
-      <div class="swiper_good_detail_operation">
-        <div class="swiper_good_detail_operation_add" @click="operation_add"></div>
-        <div class="swiper_good_detail_operation_mid">
-          <div class="swiper_good_detail_operation_mid_sure" @click="">确认数量</div>
-          <div class="swiper_good_detail_operation_mid_num">购买数量{{good_detail_num}}</div>
-        </div>
-        <div class="swiper_good_detail_operation_descrease" @click="operation_descrease"></div>
-      </div>
-    </div>
+    <gooddetail></gooddetail>
 
 
     <!--中间搜索框-->
@@ -95,6 +86,7 @@
 
 <script>
   import BScroll from 'better-scroll';
+  import gooddetail from './gooddetail';
 
   var ERR_OK = 0;
 
@@ -117,7 +109,6 @@
         secondshow: false,
         thirdshow: false,
         show_search_page: false,
-        good_detail_num: 0,
         show_swiper_good_detail: false,  // swiper_good_detail
         arr: []
       };
@@ -159,24 +150,29 @@
       },
       back() {  // 选择完商品 “返回上一级”按钮
         this.show_search_page = false;
-      },
-      operation_add() {
-        this.good_detail_num ++;
-        this.$store.state.totalcount ++;
-      },
-      operation_descrease() {
-        if (this.good_detail_num === 0) {
-          return;
-        }
-        this.good_detail_num --;
-        this.$store.state.totalcount --;
-      },
-      showGoodDetail(item) {
-        console.log(item);
-        this.arr.push(item);
-        console.log(this.arr);
-        this.show_swiper_good_detail = true;
       }
+//      operation_add() {
+//        this.good_detail_num ++;
+//        this.$store.state.totalcount ++;
+//        console.log(this.item);
+//      },
+//      operation_descrease() {
+//        if (this.good_detail_num === 0) {
+//          return;
+//        }
+//        this.good_detail_num --;
+//        this.$store.state.totalcount --;
+//      },
+//      showGoodDetail(item, index) {
+//        console.log(item);
+//        this.arr.push(item);
+//        console.log(this.arr);
+//        console.log(index);
+//        this.show_swiper_good_detail = true;
+//      }
+    },
+    components: {
+      gooddetail
     }
   };
 </script>
@@ -249,46 +245,6 @@
     font-size:0.18rem;
     line-height: 0.20rem;
     height:0.20rem;
-  }
-  .swiper_good_detail{
-    position: absolute;
-    z-index: 999;
-    top: -1.70rem;
-    left: 0.1rem;
-    width: 2.9rem;
-    height: 1.69rem;
-    font-size: 0.16rem;
-    line-height: 0.3rem;
-    color: white;
-    background: yellow;
-    background: url("../../../img/good.png") no-repeat;
-    background-size: 100% 100%;
-  }
-  .swiper_good_detail_operation{
-    margin-top: 1.13rem;
-    height: 0.56rem;
-    background: rgba(231, 46, 60, 0.8);
-  }
-  .swiper_good_detail_operation_add{
-    float: left;
-    width: 0.48rem;
-    height: 0.55rem;
-    background: url("../../../img/add.png") no-repeat;
-    background-size: 100% 100%;
-  }
-  .swiper_good_detail_operation_mid{
-    float: left;
-    width: 1.92rem;
-  }
-  .swiper_good_detail_operation_mid_sure{
-    border-bottom: 0.01rem solid #a50000;
-  }
-  .swiper_good_detail_operation_descrease{
-    float: right;
-    width: 0.49rem;
-    height: 0.55rem;
-    background: url("../../../img/descrease.png") no-repeat;
-    background-size: 100% 100%;
   }
   .find{
     width: 100%;

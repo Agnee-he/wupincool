@@ -8,32 +8,38 @@
     {
       "name": "新品五粮液",
       "price": 888,
-      "description": "真品"
+      "description": "真品",
+      "num": 0
     },
     {
       "name": "1618",
       "price": 888,
-      "description": "真品"
+      "description": "真品",
+      "num": 0
     },
     {
       "name": "低度",
       "price": 888,
-      "description": "真品"
+      "description": "真品",
+      "num": 0
     },
     {
       "name": "95专卖",
       "price": 888,
-      "description": "真品"
+      "description": "真品",
+      "num": 0
     },
     {
       "name": "15酱",
       "price": 888,
-      "description": "真品"
+      "description": "真品",
+      "num": 0
     },
     {
       "name": "交杯",
       "price": 888,
-      "description": "真品"
+      "description": "真品",
+      "num": 0
     }
   ]
 }
