@@ -1,7 +1,7 @@
 <template>
   <el-amap vid="amapDemo">
     // 添加N个人
-    <el-amap-marker v-for="marker in markers" :position="marker.position">
+    <el-amap-marker :position="marker.position">
     </el-amap-marker>
   </el-amap>
 </template>
